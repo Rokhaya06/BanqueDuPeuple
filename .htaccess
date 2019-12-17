@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^acceuil$ view/indexFinance.php?view=accueil
+
+RewriteRule ^compte$ view/indexFinance.php?view=compte
+RewriteRule ^client$ view/indexFinance.php?view=client
+RewriteRule ^user$ view/indexFinance.php?view=utilisateur
